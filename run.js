@@ -1,7 +1,7 @@
 const fs = require('fs')
 const cwd = require('process').cwd()
 const path = require('path')
-const exec = require('child_process').execSync
+const exec = require('child_process').exec
 
 const appPath = path.normalize(cwd.slice(0, cwd.lastIndexOf('node_modules')))
 
